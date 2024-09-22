@@ -1,0 +1,32 @@
+{
+  "name": "Aniworld",
+  "description": "Aniworld plugin for Grayjay",
+  "author": "Dein Name",
+  "authorUrl": "https://github.com/DeinGitHubProfil",
+
+  "sourceUrl": "https://DeinGitHubProfil.github.io/GrayjayAniworld/AniworldConfig.json",
+  "repositoryUrl": "https://github.com/DeinGitHubProfil/GrayjayAniworld",
+  "scriptUrl": "./AniworldScript.js",
+  "version": 1,
+
+  "iconUrl": "./aniworld.jpg",
+  "id": "dein-unique-id-für-das-plugin",
+
+  "scriptSignature": "",
+  "scriptPublicKey": "",
+  "packages": ["Http"],
+
+  "allowEval": false,
+  "allowUrls": [
+    "aniworld.to",
+    "static.aniworld.to",
+    "cdn.aniworld.to"
+  ],
+
+  "authentication": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+    "loginUrl": "https://aniworld.to/login",
+    "cookiesToFind": ["session_token"],
+    "cookiesExclOthers": true
+  }
+}
